@@ -1,0 +1,32 @@
+,  ,Estimate,Std. Error,z value,Pr(>|z|),meandata,sddata,Statsitical Significance,Correlation,Meaning,,X15747,X29301,X8695,X34573
+1,(Intercept),-0.0962,0.1035,-0.93,0.3527,1,0,Insignificant,Negative,,,1,1,1,1
+2,Eqpdays,0.0026,0.0002,14.83,0,393.277625,258.1262742,Significant,Positive,"For every additional month of number of days of the current equipment, the odds of churning versus not churning increase by 7.69%.",,391,238,716,29
+3,Retcall,0.7486,0.0715,10.47,0,0.040333333,0.196743916,Significant,Positive,"For every additionalcall made to retention team, the odds of churning versus not churning increase by 74.86%.",,1,0,1,0
+4,Custcare,-0.0064,0.0031,-2.03,0.042,1.8055,5.522366615,Significant,Negative,"For every additional 10 calls of mean number of customer care calls, the odds of churning versus not churning decrease by 6.36%.",,0,0,0,0
+5,Months,-0.0013,0.0033,-0.4,0.6894,18.811,9.585776319,Insignificant,Negative,,,16,8,24,10
+6,Refurb,0.295,0.04,7.37,0,0.146833333,0.353947066,Significant,Positive,"for customers with refurbished handsets, the odds of churning versus not churning increase by 29.5%.",,1,0,0,0
+7,Uniqsubs,0.1945,0.0253,7.69,0,1.552708333,1.530599919,Significant,Positive,"For every additional unit of number of uniq subs, the odds of churning versus not churning increase by 19.45%.",,2,1,1,1
+8,Dropvce,0.0064,0.0023,2.77,0.0057,5.936375,8.902277553,Significant,Positive,"For every additional 10 calls of mean number of dropped voice calls, the odds of churning versus not churning increase by 6.37%.",,0,24.33333333,0,6
+9,Revenue,-0.0009,0.0006,-1.38,0.1677,58.72726381,44.20415495,Insignificant,Negative,,,60.325,53.715,5,34.99
+10,Revenue,-0.0009,0.0006,-1.38,0.1677,58.72726381,44.20415495,Insignificant,Negative,,,60.325,53.715,5,34.99
+11,Mailres,-0.1889,0.0286,-6.6,0,0.371041667,0.483093648,Significant,Negative,"If a customer responds to mail promotoion, the odds of churning versus not churning decrease by 18.89%.",,0,1,1,1
+12,Overage,-0.0004,0.0007,-0.57,0.5681,40.87833173,94.1703181,Insignificant,Negative,,,0,0,0,0
+13,Mou,0,0.0001,-0.64,0.5193,516.8029958,527.2572568,Insignificant,Negative,,,0,466,0,793.25
+14,Setprcm,-0.2484,0.0417,-5.96,0,0.576,0.494200543,Significant,Negative,"For every additional unit of missing data on handset price, the odds of churning versus not churning decrease by 24.84%.",,0,1,1,0
+15,Creditde,-0.2236,0.0427,-5.24,0,0.118916667,0.323697172,Significant,Negative,"For every people with low creedit rating, the odds of churning versus not churning decrease by 22.36%.",,0,1,0,0
+16,Dropblk,0.0003,0.0013,0.24,0.8116,10.03008333,15.56505389,Insignificant,Positive,,,0,26,0,6
+17,Actvsubs,-0.1882,0.035,-5.38,0,1.355875,0.710515554,Significant,Negative,"For every additional active subs, the odds of churning versus not churning decrease by 18.82%.",,2,1,1,1
+18,Roam,0.0111,0.0026,4.3,0,1.19465491,9.21354294,Significant,Positive,"For every additional 10 calls of mean number of roaming calls, the odds of churning versus not churning increase by 11.1%.",,0,0.2575,0,0
+19,Changem,-0.0005,0.0001,-7.42,0,-15.4084738,261.4211088,Significant,Negative,"For every additional 50% increase in minutes of use, the odds of churning versus not churning decrease by 2.7%.",,0,64,0,68.75
+20,Changer,0.0021,0.0005,4.63,0,-0.903200716,41.42255793,Significant,Positive,"For every additional 10% change in revenues, the odds of churning versus not churning increase by 2.1%.",,-0.335,-2.695,0,0
+21,Marryno,-0.1577,0.0312,-5.05,0,0.247833333,0.431763523,Significant,Negative,"For unmarried people, the odds of churning versus not churning decrease by 15.77%.",,0,1,0,1
+22,Age1,-0.0075,0.0014,-5.19,0,43.13102888,10.42429352,Significant,Negative,"For every additional unit of age of first hh member, the odds of churning versus not churning decrease by 0.75%.",,43.17229061,64,44,60
+23,Eqpdays:Months,0,0,-7.96,0,8625.989292,9931.35154,Significant,Negative,,,6256,1904,17184,290
+24,Months:Mou,0,0,-4.98,0,9288.037796,11907.36601,Significant,Negative,,,0,3728,0,7932.5
+25,Creditde:Changem,0.0006,0.0001,4.42,0,-3.32720223,124.2620594,Significant,Positive,,,0,64,0,0
+26,Overage:Age1,0.0001,0,3.56,0.0004,1708.026036,4031.270147,Significant,Positive,,,0,0,0,0
+,,,,,,,,,,,,,,,
+27,Customer,NA,NA,NA,NA,NA,NA,,,,,1039199,1073314,1021961,1086325
+28,Churn,NA,NA,NA,NA,NA,NA,,,,,1,1,0,0
+29,pchurn.lr,NA,NA,NA,NA,NA,NA,,,,,0.789085305,0.305002379,0.735086675,0.266298608
+30,pchurn.tree,NA,NA,NA,NA,NA,NA,,,,,0.772870662,0.170731707,0.772870662,0.170731707
